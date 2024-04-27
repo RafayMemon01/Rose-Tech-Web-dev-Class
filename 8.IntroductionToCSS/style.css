@@ -1,0 +1,31 @@
+*{
+    font-size: 12px;
+    font-weight: bolder;
+    /* background-color: green; */
+}
+
+
+
+.bigHeading{
+    /* font-family: Arial; */
+    /* color: #ff0000; */
+    /* font-size: 36px; */
+}
+.sarifHeading{
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+span{
+    background-color: red;
+}
+h1{
+    background-color: red;
+}
+li>a{
+    background-color: green;
+}
+
+
+.mahroonColor{
+    background-color: brown;
+}
