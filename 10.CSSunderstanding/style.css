@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+h1 {
+  font-family: poppins;
+  background-image: url("./blue-smoke-J3OlwVB-600-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* text-indent: -9999px; */
+  color: #cfc547;
+  
+  text-shadow: 3px 0px 7px rgba(255, 244, 210, 0.8), 
+  -3px 0px 7px rgba(128, 128, 128, 0.8), 
+  0px 4px 7px rgba(255, 255, 255, 0.8);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: lowercase;
+}
