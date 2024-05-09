@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+
+    ul{
+        display: flex;
+        gap: 1em;
+        justify-content: center;
+
+        li{
+            list-style-type: none;
+
+        }
+        li:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.mainContainer{
+    display: flex;
+    gap: .5em;
+    flex-wrap: wrap;
+
+    .rightside{
+        margin: 0 0 0 1em;
+        width: 30%;
+    }
+
+    .leftside{
+        margin: 0 1em 0 0;
+        width: 50%;
+        img{
+            width: 500px;
+            
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    
+        img{
+            width: 200px !important;
+        }
+    }
+

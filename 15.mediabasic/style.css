@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1700px;
+    height: 10em;
+    background-color: red;
+}
+
+@media screen and (max-width: 1440px){
+    .container{
+        width: 1000px;
+        background-color: yellow !important
+        
+        
+        
+        
+        ;
+        
+        
+    }
+}
+@media screen and (max-width: 1024px){
+    .container{
+        width: 500px;
+        background-color: black;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit='alert("Submitted")'>
+      <label for="name">Name (4 to 8 characters):</label>
+
+      <input
+        type="text"
+        id="name"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+      <input required type="email" value="rafay@mail.com" id="">
+      
+      <textarea placeholder="ijiji"  id=""></textarea>
+
+      <input type="file" accept="" name="" id="">
+      <input type="color">
+
+      <label for="gender">Gender</label>
+      <input  value="man" type="radio" name="gender"gender">men
+      <input value="woman" type="radio" name="gender" id="gender">woman
+
+      <input type="range" minlength="20" maxlength="100" name="" id="">
+
+      <button  type="submit">submit</button>
+    </form>
+  </body>
+</html>
