@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+    background-image: url('./R.jpg');
+    background-size: cover;
+    /* background-position: center; */
+}
+.active{
+    border-bottom: 2px solid black;
+    /* padding: .5em; */
+}
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5em;
+    
+}
+nav ul li{
+    padding: .5em;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav .logo{
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+}
+.button{
+    padding: .5em;
+
+}
+.buttonBox .btn{
+    padding: .5em 2em .5em 2em;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition:  background-color 3s, border 3s;
+}
+.buttonBox .btn:hover{
+    background-color: rgb(255, 111, 111);
+    border: 1px solid black;
+
+    
+}
+/* Main Styling */
+
+
+main{
+    color: white;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.leftMainSection{
+    max-width: 40%;
+}
+.rightMainSection{
+    max-width: 40%;
+
+    img{
+        width: 400px;
+    }
+}
+
+
+/* section 2 */
+.sectionHeading{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutme{
+    margin: 0 2em 0 2em;
+    border-bottom: 2px solid aquamarine;
+}
+
+
+/* section 3 cards */
+
+.projectCards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1em;
+
+}
+.projectCards .card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 1em;
+    border: 1px solid black;
+    padding: .5em;
+    margin-top: .5em;
+}
+.projectCards .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card .cardButtons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+}
+.cardButtons a{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: .5em 1em .5em 1em;
+    width: 150px;
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+footer :nth-child(even){
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+}
+footer .rightSideFoooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.address{
+    width: 200px;
+}
+
+.socialicons{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
