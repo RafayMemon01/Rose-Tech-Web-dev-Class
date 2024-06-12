@@ -27,10 +27,26 @@
 // const
 // var (depreciated)
 
-let num1 = 10;    //Number type
+// alert("Hi, Owais!")
+
+let WriterName = "mark";
+let nationality = "US";
+
+WriterName = "John";
+alert(WriterName +" "+ nationality);
+
+let x = 2;
+let y = 2;
+let results = x+y;
 
 
-let name = "Zain Ahmad" //String type
+
+
+
+// let num1 = 10;    //Number type
+
+
+// let name = "Zain Ahmad" //String type
 
 let isMale = true; //Boolean type
 
