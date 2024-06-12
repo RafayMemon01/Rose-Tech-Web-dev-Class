@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      id="imageTobeChange"
+      src="https://www.w3schools.com/js/pic_bulbon.gif"
+      alt=""
+    />
+    <!-- https://www.w3schools.com/js/pic_bulboff.gif -->
+    <!-- <button onclick="OnBulb()">On</button>
+     <button onclick="OffBulb()">Off</button> -->
+
+    <!-- </script> -->
+    <script>
+      // -----------------------step1---------------------------------------
+      // let ImageToBeChange = document.getElementById("imageTobeChange");
+      // console.log(imageTobeChange)
+      // ImageToBeChange.src = "https://www.w3schools.com/js/pic_bulboff.gif"
+
+      // const OnBulb = ()=>{
+      //   ImageToBeChange.src ="https://www.w3schools.com/js/pic_bulbon.gif"
+      // }
+
+      // const OffBulb = ()=>{
+      //   ImageToBeChange.src ="https://www.w3schools.com/js/pic_bulboff.gif"
+      // }
+
+      // -----------------------step2---------------------------------------
+      // function changeBulb() {
+      //   let ImageToBeChange = document.getElementById("imageTobeChange");
+      //   if(ImageToBeChange.src === "https://www.w3schools.com/js/pic_bulbon.gif"){
+      //     ImageToBeChange.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+      //     }else{
+      //       ImageToBeChange.src="https://www.w3schools.com/js/pic_bulbon.gif"
+      //       }
+      //       }
+
+      //
+      // -----------------------step3---------------------------------------
+      let ImageToBeChange = document.getElementById("imageTobeChange");
+      ImageToBeChange.addEventListener("click", () => {
+        if (
+          ImageToBeChange.src === "https://www.w3schools.com/js/pic_bulbon.gif"
+        ) {
+          ImageToBeChange.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        } else {
+          ImageToBeChange.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+      });
+    </script>
+  </body>
+</html>
