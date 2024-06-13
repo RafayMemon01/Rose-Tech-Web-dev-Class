@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    body {
+      color: wheat;
+      font-family: sans-serif;
+    }
+  </style>
+  <body>
+    <h1 class="text-3xl text-bold text-red-600">Add Post</h1>
+
+    <form id="postForm">
+      <input id="text" type="text" placeholder="Enter Your POst" />
+      <button type="submit">Post</button>
+    </form>
+
+    <p id="post"></p>
+
+    <script>
+      let posts = ["Abc", "123", "spme text"];
+      let body = (document.querySelector("body").style.backgroundColor =
+        "blue");
+      let postForm = document
+        .getElementById("postForm")
+        .addEventListener("submit", (e) => {
+          e.preventDefault();
+          let text = document.getElementById("text").value;
+          console.log(text)
+          posts.unshift(text);
+          Post();
+        });
+
+      function Post() {
+        let postcontainer = document.getElementById("post");
+        postcontainer= ""
+        posts.map((text, i) => {
+          postcontainer.innerHTML += text;
+          postcontainer.id = i;
+        });
+        console.log(posts)
+      }
+    </script>
+  </body>
+</html>
